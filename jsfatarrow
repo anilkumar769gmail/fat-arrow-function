@@ -1,0 +1,7 @@
+var colors=["red","blue","green"]
+let addColors = (color) => {
+colors.push(color);
+console.log(`The last color is ${colors[colors.length-1]} now`)
+
+addColors("orange');
+addColors("salmon");
